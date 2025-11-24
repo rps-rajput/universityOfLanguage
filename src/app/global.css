@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0c4169;
+  --color-secondary: #ee4a62;
+}
+
+@layer base {
+  input, textarea, select, button {
+    @apply outline-none focus:outline-none;
+  }
+  
+  header {
+    background-color: rgba(232, 238, 240, 1) !important;
+  }
+}
